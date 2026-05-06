@@ -1,229 +1,130 @@
-# Portfolio Website - Fikrul Hanif Alghazali
+# 👋 Hi, I'm Fikrul Hanif Alghazali
 
-Portfolio pribadi modern yang dibangun dengan Astro, Tailwind CSS, dan berbagai library untuk menciptakan pengalaman web yang menarik dan interaktif.
+<div align="center">
+  
+  ![Profile Views](https://komarev.com/ghpvc/?username=fikrulhanif&color=cyan)
+  [![GitHub followers](https://img.shields.io/github/followers/fikrulhanif?style=social)](https://github.com/fikrulhanif)
+  
+</div>
 
-## 🚀 Tech Stack
+## 🚀 About Me
 
-- **Framework**: [Astro](https://astro.build) - Static Site Generator
-- **Styling**: [Tailwind CSS](https://tailwindcss.com) - Utility-first CSS framework
-- **Animations**: [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/) - Scroll animations
-- **Background Effects**: [Vanta.js](https://www.vantajs.com/) - Animated 3D backgrounds
-- **3D Library**: [Three.js](https://threejs.org/) - Required for Vanta.js
-- **Fonts**: Google Fonts (Inter & Space Grotesk)
+I'm a **System Information Student** passionate about building modern, scalable, and impactful digital solutions. Currently focusing on **Web Development** with experience in creating web applications for academic and client needs.
 
-## 📁 Struktur Project
+- 🎓 Studying System Information
+- 💻 Web Developer specializing in full-stack development
+- 🌱 Currently learning React, Flutter, and modern web technologies
+- 🔭 Working on various web-based projects
+- 💼 Open for freelance opportunities
+- 📫 Reach me at: **fikrulhanif2704@gmail.com**
 
-```
-├── .github/
-│   └── workflows/
-│       └── deploy.yml          # GitHub Actions untuk auto-deploy
-├── public/
-│   ├── favicon.svg
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   │   ├── Navbar.astro        # Navigation bar
-│   │   ├── Hero.astro          # Hero section dengan Vanta.js
-│   │   ├── About.astro         # About me section
-│   │   ├── Skills.astro        # Skills & tools
-│   │   ├── Projects.astro      # Portfolio projects
-│   │   ├── Certifications.astro # Certifications
-│   │   ├── Contact.astro       # Contact information
-│   │   └── Footer.astro        # Footer
-│   ├── layouts/
-│   │   └── Layout.astro        # Main layout template
-│   ├── pages/
-│   │   └── index.astro         # Homepage
-│   └── styles/
-│       └── global.css          # Global styles & Tailwind
-├── astro.config.mjs            # Astro configuration
-├── package.json
-└── tsconfig.json
-```
+## 🛠️ Tech Stack
 
-## 🛠️ Instalasi & Setup
+### Languages & Frameworks
 
-### Prerequisites
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-- Node.js >= 22.12.0
-- npm atau yarn
+### Frameworks & Libraries
 
-### Langkah Instalasi
+![CodeIgniter](https://img.shields.io/badge/-CodeIgniter%204-EF4223?style=flat-square&logo=codeigniter&logoColor=white)
+![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![WordPress](https://img.shields.io/badge/-WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white)
 
-1. **Clone repository**
+### Tools & Technologies
 
-   ```bash
-   git clone <repository-url>
-   cd d-project-web-portfolio
-   ```
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 
-2. **Install dependencies**
+## 📊 GitHub Stats
 
-   ```bash
-   npm install
-   ```
+<div align="center">
+  
+  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fikrulhanif&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117)
+  
+  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=fikrulhanif&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117)
+  
+</div>
 
-3. **Jalankan development server**
+## 🏆 Certifications
 
-   ```bash
-   npm run dev
-   ```
+- 🥇 **Oracle Academy** - Java Fundamental
+- 🥇 **Oracle Academy** - Database Design
+- 🥇 **Cisco Networking Academy** - CCNA: Introduction to Networks
+- 🥇 **Cisco Networking Academy** - CCNA 2: Switching, Routing, and Wireless Essentials
+- 🥇 **Cisco** - MTCNA
 
-   Website akan berjalan di `http://localhost:4321`
+## 💼 Featured Projects
 
-## 📦 Build & Deploy
+### 🎓 Sistem Informasi Akademik (SIAKAD)
 
-### Build untuk Production
+Academic management system with student, lecturer, course, and grade management features.
 
-```bash
-npm run build
-```
+- **Tech Stack**: CodeIgniter 4, MySQL, Bootstrap
+- **Features**: CRUD Management, Multi-role Authentication, Report Generation
 
-File hasil build akan ada di folder `dist/`
+### 🚗 Website Rental Mobil
 
-### Preview Build
+Online car rental platform with booking system and fleet management.
 
-```bash
-npm run preview
-```
+- **Tech Stack**: CodeIgniter 4, MySQL, jQuery
+- **Features**: Booking System, Payment Integration, Email Notification
 
-### Deploy ke GitHub Pages
+### 📅 Website Booking
 
-#### Setup GitHub Pages
+Online reservation system with interactive calendar and automatic confirmation.
 
-1. **Buat repository di GitHub** dengan nama `username.github.io` (ganti `username` dengan username GitHub Anda)
+- **Tech Stack**: CodeIgniter 4, MySQL, AJAX
+- **Features**: Real-time Booking, Calendar Integration, Admin Dashboard
 
-2. **Update `astro.config.mjs`**
+### 👟 E-Commerce Sepatu
 
-   ```javascript
-   export default defineConfig({
-     site: "https://username.github.io", // Ganti dengan username Anda
-     base: "/",
-   });
-   ```
+Modern e-commerce platform for shoe sales with shopping cart and product filtering.
 
-3. **Push code ke GitHub**
+- **Tech Stack**: CodeIgniter 4, MySQL, Tailwind CSS
+- **Features**: Shopping Cart, Product Filter, Order Tracking
 
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/username/username.github.io.git
-   git push -u origin main
-   ```
+## 🌐 Connect With Me
 
-4. **Setup GitHub Actions**
+<div align="center">
+  
+  [![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=react&logoColor=white)](https://fikrulhanif.github.io)
+  [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fikrul-hanif-a1904333a/)
+  [![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/fikrulhanif_)
+  [![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fikrulhanif2704@gmail.com)
+  [![WhatsApp](https://img.shields.io/badge/-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6289560371650)
+  
+</div>
 
-   File `.github/workflows/deploy.yml` sudah tersedia. GitHub Actions akan otomatis:
-   - Build project setiap kali ada push ke branch `main`
-   - Deploy hasil build ke GitHub Pages
+## 📈 Activity Graph
 
-5. **Aktifkan GitHub Pages**
-   - Buka repository di GitHub
-   - Settings → Pages
-   - Source: pilih "GitHub Actions"
-   - Website akan tersedia di `https://username.github.io`
+<div align="center">
+  
+  ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=fikrulhanif&theme=tokyo-night&hide_border=true&bg_color=0D1117)
+  
+</div>
 
-## 🎨 Kustomisasi
+## 💡 Quote
 
-### Mengubah Informasi Personal
-
-Edit file-file berikut untuk mengubah informasi:
-
-1. **Hero Section** (`src/components/Hero.astro`)
-   - Nama
-   - Tagline
-   - Deskripsi
-
-2. **About Section** (`src/components/About.astro`)
-   - Bio
-   - Statistik
-
-3. **Skills Section** (`src/components/Skills.astro`)
-   - Tambah/edit skills di array `skillCategories`
-
-4. **Projects Section** (`src/components/Projects.astro`)
-   - Tambah/edit projects di array `projects`
-
-5. **Certifications Section** (`src/components/Certifications.astro`)
-   - Tambah/edit certifications di array `certifications`
-
-6. **Contact Section** (`src/components/Contact.astro`)
-   - Update contact information di array `contactInfo`
-
-### Mengubah Warna Theme
-
-Edit `src/styles/global.css` untuk mengubah color scheme:
-
-```css
-/* Contoh: Ganti cyan dengan warna lain */
-.text-cyan-400 {
-  color: #your-color;
-}
-.bg-cyan-400 {
-  background-color: #your-color;
-}
-```
-
-### Mengubah Vanta.js Effect
-
-Di `src/layouts/Layout.astro`, ganti `VANTA.WAVES` dengan effect lain:
-
-```javascript
-// Waves (default)
-VANTA.WAVES({ ... })
-
-// Atau ganti dengan:
-VANTA.NET({ ... })
-VANTA.BIRDS({ ... })
-VANTA.FOG({ ... })
-```
-
-## 📱 Fitur
-
-- ✅ Fully responsive (mobile-first design)
-- ✅ Dark mode default
-- ✅ Smooth scrolling
-- ✅ Scroll animations (AOS)
-- ✅ Interactive 3D background (Vanta.js)
-- ✅ Active navigation highlighting
-- ✅ Mobile menu
-- ✅ SEO friendly
-- ✅ Fast loading (static site)
-- ✅ Modern UI/UX
-- ✅ Accessible
-
-## 🔧 Scripts
-
-```bash
-npm run dev       # Start development server
-npm run build     # Build for production
-npm run preview   # Preview production build
-```
-
-## 📄 License
-
-MIT License - Feel free to use this template for your own portfolio!
-
-## 👤 Author
-
-**Fikrul Hanif Alghazali**
-
-- GitHub: [@LilCode2704](https://github.com/LilCode2704)
-- LinkedIn: [Fikrul Hanif](https://www.linkedin.com/in/fikrul-hanif-a1904333a/)
-- Instagram: [@fikrulhanif\_](https://www.instagram.com/fikrulhanif_)
-- Email: fikrulhanif2704@gmail.com
-
-## 🙏 Credits
-
-- [Astro](https://astro.build)
-- [Tailwind CSS](https://tailwindcss.com)
-- [AOS](https://michalsnik.github.io/aos/)
-- [Vanta.js](https://www.vantajs.com/)
-- [Three.js](https://threejs.org/)
-- [Google Fonts](https://fonts.google.com)
+<div align="center">
+  
+  ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+  
+</div>
 
 ---
 
-⭐ Jika project ini membantu, jangan lupa berikan star!
+<div align="center">
+  
+  **"Building modern, scalable, and impactful digital solutions"**
+  
+  ⭐️ From [fikrulhanif](https://github.com/fikrulhanif)
+  
+</div>
