@@ -97,7 +97,7 @@ MIT License - Feel free to use this template for your own portfolio!
 
 **Fikrul Hanif Alghazali**
 
-- GitHub: [@LilCode2704](https://github.com/LilCode2704)
+- GitHub: [@fikrulhanif](https://github.com/fikrulhanif)
 - LinkedIn: [Fikrul Hanif](https://www.linkedin.com/in/fikrul-hanif-a1904333a/)
 - Instagram: [@fikrulhanif\_](https://www.instagram.com/fikrulhanif_)
 - Email: fikrulhanif2704@gmail.com
