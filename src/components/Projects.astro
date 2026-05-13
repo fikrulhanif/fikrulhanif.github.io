@@ -1,32 +1,52 @@
 ---
 const projects = [
   {
-    title: 'Sistem Informasi Akademik (SIAKAD)',
-    description: 'Aplikasi manajemen akademik lengkap dengan fitur pengelolaan mahasiswa, dosen, mata kuliah, dan nilai. Dilengkapi dengan sistem autentikasi multi-role dan dashboard interaktif.',
-    tech: ['CodeIgniter 4', 'MySQL', 'Bootstrap', 'JavaScript'],
-    features: ['CRUD Management', 'Multi-role Auth', 'Report Generation', 'Responsive Design'],
-    gradient: 'from-purple-500 to-pink-500'
+    title: 'CodeNime',
+    shortDesc: 'Anime search website with Next.js & TypeScript',
+    description: 'Website pencarian anime yang dibangun dengan Next.js, TypeScript, dan Tailwind CSS. Menggunakan Jikan API untuk mendapatkan data anime dari MyAnimeList. Fitur pencarian, browse by season, trending shows, dan detail lengkap anime termasuk karakter dan episode.',
+    tech: ['Next.js 16', 'TypeScript', 'Tailwind CSS', 'TanStack Query', 'Zustand', 'Framer Motion'],
+    features: ['Anime Search', 'Season Browse', 'Trending Shows', 'Character & Episode Details', 'Smooth Animations', 'Responsive Design'],
+    gradient: 'from-purple-500 to-pink-500',
+    icon: 'M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z',
+    github: 'https://github.com/fikrulhanif/code-nime-nextjs',
+    demo: 'codenime-fh.vercel.app',
+    status: 'deployed'
   },
   {
-    title: 'Website Rental Mobil',
-    description: 'Sistem Informasi Rental Mobil berbasis web dengan fitur booking online, verifikasi email OTP, manajemen pembayaran, dan dashboard multi-role. Dibangun dengan CodeIgniter 4.',
-    tech: ['CodeIgniter 4', 'MySQL', 'jQuery', 'CSS3'],
-    features: ['Booking System', 'Payment Integration', 'Fleet Management', 'Email Notification'],
-    gradient: 'from-cyan-500 to-blue-500'
+    title: 'Rental Mobil',
+    shortDesc: 'Car rental system with OTP verification',
+    description: 'Sistem rental mobil berbasis web dengan fitur booking online, verifikasi email OTP, manajemen pembayaran, dan dashboard multi-role. Dilengkapi dengan sistem autentikasi session-based dan middleware filters untuk keamanan maksimal.',
+    tech: ['CodeIgniter 4', 'MySQL', 'Bootstrap 5', 'SMTP Gmail', 'JavaScript', 'Laminas Escaper'],
+    features: ['Online Booking', 'Email OTP Verification', 'Payment Management', 'Multi-role Dashboard', 'Session Security', 'Responsive UI'],
+    gradient: 'from-cyan-500 to-blue-500',
+    icon: 'M8 7v8a2 2 0 002 2h6M8 7V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V15a2 2 0 01-2 2h-2M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2v-2',
+    github: 'https://github.com/fikrulhanif/rental-mobil-ci4',
+    demo: null,
+    status: 'completed'
   },
   {
-    title: 'Website Booking',
-    description: 'Sistem reservasi online untuk berbagai layanan dengan kalender interaktif, manajemen slot waktu, dan konfirmasi otomatis. Mendukung multiple service providers.',
-    tech: ['CodeIgniter 4', 'MySQL', 'AJAX', 'Bootstrap'],
-    features: ['Real-time Booking', 'Calendar Integration', 'Auto Confirmation', 'Admin Dashboard'],
-    gradient: 'from-green-500 to-teal-500'
+    title: 'SIAKAD',
+    shortDesc: 'Academic information system',
+    description: 'Sistem Informasi Akademik untuk mengelola kegiatan akademik perguruan tinggi dengan 3 role utama: Admin, Dosen, dan Mahasiswa. Menggunakan template AdminLTE dengan fitur lengkap manajemen akademik, grafik statistik, dan report generation.',
+    tech: ['CodeIgniter 4', 'MySQL', 'AdminLTE 3', 'Chart.js', 'DataTables', 'Select2', 'Bootstrap 4'],
+    features: ['Multi-role System', 'Academic Management', 'Interactive Charts', 'Report Generation', 'Grade Management', 'Schedule System'],
+    gradient: 'from-green-500 to-teal-500',
+    icon: 'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253',
+    github: 'https://github.com/fikrulhanif/siakad-ci4',
+    demo: null,
+    status: 'completed'
   },
   {
-    title: 'E-Commerce Sepatu',
-    description: 'Platform e-commerce modern untuk penjualan sepatu dengan fitur keranjang belanja, wishlist, filter produk, dan sistem checkout yang user-friendly.',
-    tech: ['CodeIgniter 4', 'MySQL', 'JavaScript', 'Tailwind CSS'],
-    features: ['Shopping Cart', 'Product Filter', 'Wishlist', 'Order Tracking'],
-    gradient: 'from-orange-500 to-red-500'
+    title: 'Labventory',
+    shortDesc: 'Lab inventory mobile app',
+    description: 'Sistem Peminjaman Inventaris Laboratorium Kampus berbasis mobile. Dibangun dengan Flutter untuk frontend dan Laravel sebagai REST API backend. Memudahkan mahasiswa dan staff dalam mengelola peminjaman alat lab dengan real-time tracking.',
+    tech: ['Flutter', 'Laravel', 'REST API', 'MySQL', 'JWT Auth', 'Push Notifications'],
+    features: ['Mobile App', 'Inventory Management', 'Booking System', 'Real-time Status', 'QR Code Scanner', 'Push Notifications'],
+    gradient: 'from-orange-500 to-red-500',
+    icon: 'M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z',
+    github: 'https://github.com/fikrulhanif/labventory-flutter',
+    demo: null,
+    status: 'development'
   }
 ];
 ---
@@ -46,69 +66,110 @@ const projects = [
       </p>
     </div>
     
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <!-- Projects Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
       {projects.map((project, index) => (
         <div 
-          class="group bg-gray-900/50 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-800 hover:border-cyan-500/50 transition-all duration-300 hover:transform hover:scale-105"
+          class="group bg-gray-900/50 backdrop-blur-sm rounded-xl border border-gray-800 hover:border-cyan-500/50 transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl hover:shadow-cyan-500/20"
           data-aos="fade-up"
           data-aos-delay={index * 100}
         >
-          <!-- Project Header with Gradient -->
-          <div class={`h-2 bg-gradient-to-r ${project.gradient}`}></div>
-          
-          <div class="p-8">
+          <!-- Project Icon & Status -->
+          <div class="p-6 pb-4">
+            <div class="flex items-start justify-between mb-4">
+              <div class={`w-12 h-12 bg-gradient-to-br ${project.gradient} rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d={project.icon}></path>
+                </svg>
+              </div>
+              
+              {project.status === 'deployed' ? (
+                <span class="inline-flex items-center gap-1 px-2 py-1 bg-green-500/20 text-green-400 rounded-full text-xs font-medium border border-green-500/30">
+                  <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                  </svg>
+                  Live
+                </span>
+              ) : project.status === 'completed' ? (
+                <span class="inline-flex items-center gap-1 px-2 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs font-medium border border-blue-500/30">
+                  <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                  </svg>
+                  Done
+                </span>
+              ) : (
+                <span class="inline-flex items-center gap-1 px-2 py-1 bg-yellow-500/20 text-yellow-400 rounded-full text-xs font-medium border border-yellow-500/30">
+                  <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                  </svg>
+                  Dev
+                </span>
+              )}
+            </div>
+            
             <!-- Title -->
-            <h3 class="text-2xl font-bold text-white mb-3 font-space-grotesk group-hover:text-cyan-400 transition-colors duration-300">
+            <h3 class="text-xl font-bold text-white mb-2 font-space-grotesk group-hover:text-cyan-400 transition-colors duration-300">
               {project.title}
             </h3>
             
-            <!-- Description -->
-            <p class="text-gray-400 mb-6 leading-relaxed">
-              {project.description}
+            <!-- Short Description -->
+            <p class="text-sm text-gray-400 mb-4 line-clamp-2">
+              {project.shortDesc}
             </p>
             
-            <!-- Features -->
-            <div class="mb-6">
-              <h4 class="text-sm font-semibold text-cyan-400 mb-3">Key Features:</h4>
-              <div class="grid grid-cols-2 gap-2">
-                {project.features.map((feature) => (
-                  <div class="flex items-center gap-2 text-sm text-gray-300">
-                    <svg class="w-4 h-4 text-cyan-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                    <span>{feature}</span>
-                  </div>
-                ))}
-              </div>
+            <!-- Tech Stack (show 3) -->
+            <div class="flex flex-wrap gap-1.5 mb-4">
+              {project.tech.slice(0, 3).map((tech) => (
+                <span class="px-2 py-1 bg-gray-800/50 text-gray-400 rounded text-xs border border-gray-700">
+                  {tech}
+                </span>
+              ))}
+              {project.tech.length > 3 && (
+                <span class="px-2 py-1 bg-gray-800/50 text-cyan-400 rounded text-xs border border-gray-700">
+                  +{project.tech.length - 3}
+                </span>
+              )}
             </div>
+          </div>
+          
+          <!-- Divider -->
+          <div class={`h-px bg-gradient-to-r ${project.gradient} opacity-20`}></div>
+          
+          <!-- Actions -->
+          <div class="p-4 flex gap-2">
+            <button 
+              data-project-index={index}
+              class="project-detail-btn flex-1 px-3 py-2 bg-gray-800/50 text-gray-300 rounded-lg text-sm font-medium hover:bg-gray-800 hover:text-cyan-400 transition-all duration-300 flex items-center justify-center gap-1.5"
+            >
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+              Details
+            </button>
             
-            <!-- Tech Stack -->
-            <div class="mb-6">
-              <h4 class="text-sm font-semibold text-cyan-400 mb-3">Tech Stack:</h4>
-              <div class="flex flex-wrap gap-2">
-                {project.tech.map((tech) => (
-                  <span class="px-3 py-1 bg-gray-800/50 text-gray-300 rounded-full text-xs font-medium border border-gray-700">
-                    {tech}
-                  </span>
-                ))}
-              </div>
-            </div>
+            <a 
+              href={project.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="px-3 py-2 bg-gradient-to-r from-cyan-500 to-blue-500 text-white rounded-lg text-sm font-medium hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 flex items-center justify-center"
+            >
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+            </a>
             
-            <!-- Action Buttons -->
-            <div class="flex gap-3">
-              <button class="flex-1 px-4 py-2 bg-gradient-to-r from-cyan-500 to-blue-500 text-white rounded-lg font-medium hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 flex items-center justify-center gap-2">
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                </svg>
-                View Code
-              </button>
-              <button class="px-4 py-2 border-2 border-cyan-400 text-cyan-400 rounded-lg font-medium hover:bg-cyan-400 hover:text-gray-900 transition-all duration-300 flex items-center justify-center gap-2">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            {project.demo && (
+              <a 
+                href={`https://${project.demo}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="px-3 py-2 border-2 border-cyan-400 text-cyan-400 rounded-lg text-sm font-medium hover:bg-cyan-400 hover:text-gray-900 transition-all duration-300 flex items-center justify-center"
+              >
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
                 </svg>
-                Demo
-              </button>
-            </div>
+              </a>
+            )}
           </div>
         </div>
       ))}
@@ -117,7 +178,7 @@ const projects = [
     <!-- View More -->
     <div class="text-center mt-12" data-aos="fade-up" data-aos-delay="400">
       <a 
-        href="https://github.com/LilCode2704" 
+        href="https://github.com/fikrulhanif" 
         target="_blank"
         rel="noopener noreferrer"
         class="inline-flex items-center gap-2 px-8 py-4 bg-gray-900/50 border-2 border-cyan-400 text-cyan-400 font-semibold rounded-lg hover:bg-cyan-400 hover:text-gray-900 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-400/50"
@@ -129,4 +190,129 @@ const projects = [
       </a>
     </div>
   </div>
+  
+  <!-- Modal -->
+  <div id="projectModal" class="fixed inset-0 bg-gray-950/90 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+    <div class="bg-gray-900 rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto border border-gray-800 relative">
+      <!-- Close Button -->
+      <button 
+        id="closeModalBtn"
+        class="absolute top-4 right-4 w-10 h-10 bg-gray-800 hover:bg-gray-700 rounded-lg flex items-center justify-center text-gray-400 hover:text-white transition-colors duration-300 z-10"
+      >
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+      
+      <!-- Modal Content -->
+      <div id="modalContent"></div>
+    </div>
+  </div>
 </section>
+
+<script define:vars={{ projects }}>
+  // Wait for DOM to be ready
+  document.addEventListener('DOMContentLoaded', function() {
+    const modal = document.getElementById('projectModal');
+    const modalContent = document.getElementById('modalContent');
+    const closeBtn = document.getElementById('closeModalBtn');
+    
+    function openModal(index) {
+      const project = projects[index];
+      
+      const statusBadge = project.status === 'deployed' 
+        ? '<span class="inline-flex items-center gap-1 px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm font-medium border border-green-500/30"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Live</span>'
+        : project.status === 'completed'
+        ? '<span class="inline-flex items-center gap-1 px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm font-medium border border-blue-500/30"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Completed</span>'
+        : '<span class="inline-flex items-center gap-1 px-3 py-1 bg-yellow-500/20 text-yellow-400 rounded-full text-sm font-medium border border-yellow-500/30"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>In Development</span>';
+      
+      const demoButton = project.demo 
+        ? `<a href="https://${project.demo}" target="_blank" rel="noopener noreferrer" class="flex-1 px-6 py-3 border-2 border-cyan-400 text-cyan-400 rounded-lg font-semibold hover:bg-cyan-400 hover:text-gray-900 transition-all duration-300 flex items-center justify-center gap-2"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>Live Demo</a>`
+        : '';
+      
+      modalContent.innerHTML = `
+        <div class="h-2 bg-gradient-to-r ${project.gradient}"></div>
+        <div class="p-8">
+          <div class="flex items-start justify-between mb-6">
+            <div>
+              <h3 class="text-3xl font-bold text-white mb-2 font-space-grotesk">${project.title}</h3>
+              <p class="text-gray-400">${project.shortDesc}</p>
+            </div>
+            ${statusBadge}
+          </div>
+          
+          <p class="text-gray-300 leading-relaxed mb-6">${project.description}</p>
+          
+          <div class="mb-6">
+            <h4 class="text-lg font-semibold text-cyan-400 mb-3 font-space-grotesk">Key Features</h4>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              ${project.features.map(feature => `
+                <div class="flex items-center gap-2 text-gray-300">
+                  <svg class="w-5 h-5 text-cyan-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  </svg>
+                  <span>${feature}</span>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+          
+          <div class="mb-8">
+            <h4 class="text-lg font-semibold text-cyan-400 mb-3 font-space-grotesk">Tech Stack</h4>
+            <div class="flex flex-wrap gap-2">
+              ${project.tech.map(tech => `
+                <span class="px-4 py-2 bg-gray-800/50 text-gray-300 rounded-lg text-sm font-medium border border-gray-700">${tech}</span>
+              `).join('')}
+            </div>
+          </div>
+          
+          <div class="flex gap-4">
+            <a href="${project.github}" target="_blank" rel="noopener noreferrer" class="flex-1 px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 flex items-center justify-center gap-2">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+              View on GitHub
+            </a>
+            ${demoButton}
+          </div>
+        </div>
+      `;
+      
+      modal.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+    
+    function closeModal() {
+      modal.classList.add('hidden');
+      document.body.style.overflow = 'auto';
+    }
+    
+    // Add event listeners to all detail buttons
+    const detailButtons = document.querySelectorAll('.project-detail-btn');
+    detailButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        const index = parseInt(this.getAttribute('data-project-index'));
+        openModal(index);
+      });
+    });
+    
+    // Close button
+    if (closeBtn) {
+      closeBtn.addEventListener('click', closeModal);
+    }
+    
+    // Close modal on outside click
+    modal.addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeModal();
+      }
+    });
+    
+    // Close modal on ESC key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeModal();
+      }
+    });
+  });
+</script>
